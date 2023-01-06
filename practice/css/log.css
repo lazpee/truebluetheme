@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.form-container{
+	min-height: 78.7vh;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	
+	padding-bottom: 80px;
+	
+}
+.form-container form{
+	text-align: right;
+	width: 400px;
+	border: 1px solid black;
+	background:#072F5F;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right: 150px;
+	padding-right: 48px;
+	
+}
+.form-container form h2{
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+.form-container form h3{
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: white;
+
+}
+.form-container form .box{
+	padding: 12px 15px;
+	font-size: 20px;
+	margin-top: 10px;
+	width: 60%;
+	border: 1px solid black;
+	height: 20px;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: 12px;
+	
+}
+.form-container form .btn{
+	
+	margin-top: 20px;
+	background: #2565AE;
+	color: #000;
+	padding: 5px 28px;
+	font-size: 14px;
+	
+	cursor: pointer;
+}
+.form-container form .btn:hover{
+	background: #3C99DC;
+	color: white;
+}
+.form-container form p{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.form-container form p span{
+	color: red;
+}
+.form-container form .error-msg{
+	display: block;
+	margin: 10px;
+	background: crimson;
+	font-size: 15px;
+	color: white;
+	padding: 8px;
+}
+
+
+.form-container .ic img{
+	width: 280px;
+	height: 150px;
+	margin-top: 140px;
+	margin-right: 330px;
+}
+
+.form-container .ic h1{
+	margin-left: 10px;
+	font-style: monospace;
+	
+	font-size: 50px;
+}
+.form-container .ic h2{
+	padding: 20px;
+	margin-left: -50px;
+	font-style: monospace;
+	color: black;
+}
+label{
+	color: white;
+}
+p{
+	color: white;
+}
+a{
+	color: crimson;
+}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cabin:ital,wght@0,400;0,500;1,400&family=League+Gothic&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=League+Gothic&family=Montserrat:wght@500&display=swap');
+@font-face {
+	font-family: Gistesy;
+	src: url(Gistesy.ttf);
+}
+
+*
+{
+	margin:  0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.bgparallax
+{
+	display: flex;
+	min-height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background size: cover;
+	background-image: url("bg4.jpg");
+}
+.dropdownlogo 
+{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+
+.navbar
+{
+	width: 100%;
+	height: 60px;
+
+	
+}
+.navbar button
+{
+	padding-left: 20px;
+}
+.navbar a:hover 
+{
+	color: #da392b;
+	text-decoration: underline;
+}
+.logo
+{
+	width: 180px;
+	cursor: pointer;
+ 	float: left;
+}
+.col1
+{
+	width: 70%;
+	float: left;
+	height: 555px;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	text-align: center;
+	border: 1px solid #7d7e82;
+	overflow-y: scroll;
+
+}
+nav
+{
+	margin-top: 1%;
+	margin-left: 1.5%;
+	color: black;
+
+}
+.headd
+{
+	width: 100%;
+	background-color: black;
+	height: 40px;
+	background-image: -webkit-linear-gradient(top, #1599eb, #105078);
+  background-image: -moz-linear-gradient(top, #1599eb, #105078);
+  background-image: -ms-linear-gradient(top, #1599eb, #105078);
+  background-image: -o-linear-gradient(top, #1599eb, #105078);
+  background-image: linear-gradient(to bottom, #1599eb, #105078);
+  border-radius: 60px;
+  font-weight: bolder;
+ }
+img
+{
+	width: 120px;
+	height: 120px;
+	border: 1px solid #7d7e82;
+	border-radius: 7%;
+	box-shadow: 0px -1px 0px 2px #b6b8bd;
+}
+button
+{
+		background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+		border: 10px solid black;
+
+}
+button:hover
+ {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+button:active 
+{
+	position:relative;
+	top:1px;
+}
+.card
+{
+	margin-right: 1%;
+	margin-bottom: .5%;
+	height: 275px;
+	width: 340px;
+}
+
+ .table th 
+ {
+  cursor: pointer;
+}
+
+.table .th-sort-asc::after 
+{
+  content: "\25b4";
+}
+
+.table .th-sort-desc::after 
+{
+  content: "\25be";
+}
+
+.table .th-sort-asc::after,
+.table .th-sort-desc::after
+{
+  margin-left: 5px;
+}
+
+.table .th-sort-asc,
+.table .th-sort-desc 
+{
+  background: rgba(0, 0, 0, 0.1);
+}
